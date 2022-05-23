@@ -1,0 +1,43 @@
+#vacancies {
+  .title {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+  text-align: center;
+    letter-spacing: 0.003em;
+
+    color: #FFFFFF;
+
+  }
+  .vacancy {
+    &__box {
+      border-bottom: 1px solid #494949;
+      background: transparent;
+      padding: 20px;
+      &--title {
+      cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        /* identical to box height */
+
+        transition: 0.7s;
+        color: #FFFFFF;
+      }
+      &--desc {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 30px;
+        transition: 0.7s;
+        color: #FFFFFF;
+        p {
+          transition: 0.7s;
+        }
+      }
+    }
+  }
+}
